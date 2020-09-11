@@ -10,7 +10,7 @@ function App() {
   const [validator,setValidator]=React.useState(true);
   const [otp,setOtp]=React.useState('')
   const [result,setResult]=React.useState('')
-  const [Phone,setPhone]=React.useState('')
+  const [,setPhone]=React.useState('')
 
   const handleGetOTPSubmit = () => 
   {
