@@ -7,7 +7,7 @@ const OTPSET=['1468','4793','1234','0000'];
 
 function App() {
 
-  const [validator,setValidator]=React.useState(true);
+  const [validator,setValidator]=React.useState(false);
   const [otp,setOtp]=React.useState('')
   const [result,setResult]=React.useState('')
   const [,setPhone]=React.useState('')
