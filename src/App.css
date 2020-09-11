@@ -7,6 +7,25 @@
   padding-top: 20vh;
 }
 
+.Pre-Inp 
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.content .Pre-Inp .MuiInputBase-root
+{
+    color:#fff;
+}
+.content .Pre-Inp .MuiInput-underline:hover:not(.Mui-disabled):before
+{
+  border-bottom: 1px solid #fff;
+}
+.content .Pre-Inp .MuiInput-underline:before
+{
+  border-bottom:1px solid #fff; 
+}
 .content
 {
   background-color: #7939C5;
@@ -24,7 +43,7 @@
   align-items: center;
   flex-direction: column;
 }
-.content button 
+.content .btn 
 {
   width:20vw;
   height:5vh;
@@ -51,6 +70,16 @@
 .Inp button 
 {
   margin-top:5vh;
+  width:20vw;
+  height:5vh;
+  outline:none;
+  border:1px solid white;
+  cursor: pointer;
+  border-radius: 2rem;;
+  font-weight: 900;
+  color:white;
+  background-color: #7939C5;
+  transition: all 0.2s ease-in-out;
 }
 
 .Abs 
